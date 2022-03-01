@@ -1,0 +1,36 @@
+.win__container {
+  height: 100.4vh;
+  width: 100%;
+  background: rgba(0, 151, 19, 0.5);
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 4vh 8%;
+}
+
+.win__star--container {
+  position: relative;
+}
+
+.win__star {
+  margin: 0 auto;
+  display: block;
+}
+
+.win__star--text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.win__score--container {
+  background-color: white;
+  border: solid 10px;
+  border-radius: 10px;
+  padding: 35px 30px;
+  margin: 5vh auto 5vh auto;
+  max-width: 400px;
+  min-width: 260px;
+}

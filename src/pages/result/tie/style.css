@@ -1,0 +1,30 @@
+.tie__container {
+  height: 100.4vh;
+  width: 100%;
+  background: rgba(2, 100, 139, 0.5);
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 4vh 8%;
+}
+
+.tie__star--container {
+  position: relative;
+}
+
+.tie__star {
+  margin: 0 auto;
+  display: block;
+  width: 254px;
+  height: 260px;
+}
+
+.tie__score--container {
+  background-color: white;
+  border: solid 10px;
+  border-radius: 10px;
+  padding: 35px 30px;
+  margin: 5vh auto 5vh auto;
+  max-width: 400px;
+  min-width: 260px;
+}

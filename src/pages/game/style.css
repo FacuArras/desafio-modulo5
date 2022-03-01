@@ -1,0 +1,36 @@
+.counter__cont {
+  font-size: 200px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20vh;
+}
+
+.notSelected {
+  transform: translateY(9vh);
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.selected {
+  display: flex;
+  align-items: flex-end;
+  transform: translateY(0vh);
+  opacity: 1;
+}
+
+.home--play {
+  height: 100vh;
+}
+
+.hands--play__container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30vh;
+}
+
+.computer-play {
+  transform: rotate(0.5turn);
+}

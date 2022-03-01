@@ -1,0 +1,17 @@
+.home {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 10vh 5% 0 5%;
+  overflow: hidden;
+}
+
+.hands__container {
+  display: flex;
+  height: 25vh;
+  width: 100%;
+  gap: 10%;
+  align-items: flex-end;
+  justify-content: center;
+}
